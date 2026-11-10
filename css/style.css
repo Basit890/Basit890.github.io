@@ -313,3 +313,5 @@ img{object-fit:cover}.cert img{object-fit:contain}
 .car figcaption a{color:#fff;text-decoration:underline;text-underline-offset:2px}
 .schools div+div{padding-left:28px}
 @media (max-width:640px){.schools div+div{padding-left:0}}
+.schools>div:nth-child(2){padding-left:28px!important}
+@media (max-width:640px){.schools>div:nth-child(2){padding-left:0!important}}
