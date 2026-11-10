@@ -294,3 +294,17 @@ img{object-fit:cover}.cert img{object-fit:contain}
 .quick{max-width:38em;display:flex;flex-wrap:wrap;gap:10px 36px;margin:0 0 36px;padding-top:18px;border-top:1px solid var(--line);font-size:.95rem;color:var(--mute)}
 .quick b{display:block;font-weight:500;color:var(--fg);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:2px}
 .contact h2{max-width:20ch}
+
+.fund{display:grid;gap:12px;margin:0 0 1.1rem}
+.fund .total{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 14px;padding:14px 18px;border-radius:12px;background:var(--fg);color:var(--bg)}
+.fund .total b{font-family:var(--f-display);font-weight:400;font-size:clamp(1.9rem,3.6vw,2.6rem);line-height:1}
+.fund .total span{font-family:var(--f-mono);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase}
+.miles{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0;padding:0;list-style:none}
+.miles li{display:flex;flex-direction:column;gap:2px;padding:12px 14px;border:1px solid var(--line);border-radius:12px}
+.miles .mono{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--acc)}
+.miles b{font-weight:600;font-size:1.1rem}
+.miles span:last-child{font-size:.85rem;color:var(--mute)}
+.mentors{margin:0 0 1.1rem;font-size:.9rem;color:var(--mute)}
+.mentors .mono{display:block;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin-bottom:3px}
+.mentors a{color:var(--fg);text-decoration:underline;text-underline-offset:3px}
+@media(max-width:420px){.miles{grid-template-columns:1fr}}
