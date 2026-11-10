@@ -311,3 +311,5 @@ img{object-fit:cover}.cert img{object-fit:contain}
 
 .credit{margin:0 0 1rem;font-size:.88rem;color:var(--mute)}
 .car figcaption a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+.schools div+div{padding-left:28px}
+@media (max-width:640px){.schools div+div{padding-left:0}}
