@@ -308,3 +308,6 @@ img{object-fit:cover}.cert img{object-fit:contain}
 .mentors .mono{display:block;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin-bottom:3px}
 .mentors a{color:var(--fg);text-decoration:underline;text-underline-offset:3px}
 @media(max-width:420px){.miles{grid-template-columns:1fr}}
+
+.credit{margin:0 0 1rem;font-size:.88rem;color:var(--mute)}
+.car figcaption a{color:#fff;text-decoration:underline;text-underline-offset:2px}
